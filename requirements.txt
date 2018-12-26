@@ -1,0 +1,14 @@
+appdirs
+bkcharts
+bokeh
+cached-property
+certifi
+click
+defusedxml
+dnspython
+dominate
+Flask
+Flask-Bootstrap
+isodate
+tornado
+Werkzeug

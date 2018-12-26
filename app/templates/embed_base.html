@@ -1,0 +1,73 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}Roy Hill Sample Flask Application{% endblock %}
+
+{% block navbar %}
+<style>
+    .navbar {
+    margin-bottom: 100;
+    background-color: #650811;
+
+    border: 100;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    }
+
+    .navbar li a, .navbar .navbar-brand {
+        color: #fff !important;
+    }
+
+    .navbar-nav li a:hover, .navbar-nav li.active a {
+        color: #650811 !important;
+        background-color: #fff !important;
+    }
+
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+        color: #fff !important;
+    }
+    .btn-primary {
+        background-color: #650811;
+        color: #fff;
+       }
+        .panel {
+        border-color: #650811;
+        z-index: 9999;
+        border: 1;
+        font-size: 12px !important;
+        line-height: 1.42857143 !important;
+        border-radius: 0;
+        }
+    .panel-heading {
+        background-color: #650811;
+        color: #fff;
+        }
+</style>
+
+<div class="navbar navbar-inverse" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-left"><img style="max-height:48px; margin-right: 10px;" src="/images/royhill_small.png"></a>
+            <a class="navbar-brand" href="/">Roy Hill Sample Flask Application</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/sin">Sine</a></li>
+                <li><a href="/cos">Cosine</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block content %}
+{% endblock %}
+
